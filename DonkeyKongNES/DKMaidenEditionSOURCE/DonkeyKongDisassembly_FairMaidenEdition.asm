@@ -1,6 +1,4 @@
 ;TO-DO:
-;-player should still interact with enemies (actually, it loooks like its flame enemy-exclusive... speaking of, make sure they can die too)
-;-don't forget to edit the hud to have L for link (yeah, I get it, it'll be kinda confusing with the loop counter... unless I add a special tile for lives)
 ;-maybe allow to pull the sword even when holding directional buttons (re-arrange the code?)
 
 ;fair maiden edition, inspired by Ultimate NES Remix
