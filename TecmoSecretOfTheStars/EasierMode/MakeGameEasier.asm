@@ -3,7 +3,7 @@
 
 ;encounter rate
 org $019FB6
-LDA $0541                                       ;slightly rearranged the code
+LDA $0541                           ;slightly rearranged the code
 CLC
 autoclean JSL LessEncounters
 
@@ -45,9 +45,9 @@ RTL
 LessEncounters:
 ADC $01A086,x                       ;idk what this table is, encounter modifier or something
 LSR                                 ;2 times less chance
-BNE .YesEncounters                  ;if it's not zero, continue as normal
+;BNE .YesEncounters                  ;if it's not zero, continue as normal
 
-LDA #$01                            ;leave a miniscule chance of encounters (this is probably not necessary tbh)
+;LDA #$01                            ;leave a miniscule chance of encounters (this is probably not necessary tbh) (spoiler: is not)
 
 .YesEncounters
 RTL
